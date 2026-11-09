@@ -1,0 +1,28 @@
+[
+  {
+    "name": "cloudflare-icmp",
+    "host": "1.1.1.1",
+    "kind": "icmp"
+  },
+  {
+    "name": "google-icmp",
+    "host": "8.8.8.8",
+    "kind": "icmp"
+  },
+  {
+    "name": "github-tcp-443",
+    "host": "github.com",
+    "kind": "tcp",
+    "port": 443
+  },
+  {
+    "name": "dns-resolve",
+    "host": "example.com",
+    "kind": "dns"
+  },
+  {
+    "name": "dns:vercel.com",
+    "host": "vercel.com",
+    "kind": "dns"
+  }
+]
