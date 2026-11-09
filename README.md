@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # netmon
 
 Network health monitor. Python (FastAPI + asyncio) probes hosts and stores
@@ -244,3 +245,7 @@ Invoke-RestMethod -Method Post http://localhost:8000/api/targets/import -Content
 - Email / Telegram alert channels in `alerts.py`
 - Per-host thresholds in `targets.json`
 - Docker Compose for one-command startup
+=======
+# Network-Health-Monitor
+A real-time Network Health Monitoring application  Designed to monitor network connectivity, track host availability, measure response times, and provide insights into network performance through an interactive dashboard.
+>>>>>>> 8018e70862c2b8a27789dc303f7b63a28d4ce0e5
